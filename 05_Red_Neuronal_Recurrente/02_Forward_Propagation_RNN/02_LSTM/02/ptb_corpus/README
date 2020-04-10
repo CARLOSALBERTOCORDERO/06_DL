@@ -1,0 +1,13 @@
+copyright="Copyright (C) 1995 University of Pennsylvania"
+license="This is a stub for the full Penn Treebank Corpus version 3."
+
+Data description:
+
+Penn Treebank Corpus
+    - should be free for research purposes
+    - the same processing of data as used in many LM papers, including "Empirical Evaluation and Combination of Advanced Language Modeling Techniques"
+    - ptb_train.txt: train set
+    - ptb_valid.txt: development set (should be used just for tuning hyper-parameters, but not for training)
+    - ptb_test.txt: test set for reporting perplexity
+    
+    - ptb_char.*: the same data, just rewritten as sequences of characters, with spaces rewritten as '_' - useful for training character based models
