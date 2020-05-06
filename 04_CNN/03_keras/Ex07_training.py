@@ -16,6 +16,7 @@ k.clear_session();
 train_data = '/content/gdrive/My Drive/Colab Notebooks/data/train'
 test_data = '/content/gdrive/My Drive/Colab Notebooks/data/test'
 
+
 # Número de iteraciones sobre todo el dataset de entrenamiento
 epochs = 20
 
