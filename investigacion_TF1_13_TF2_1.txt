@@ -1,0 +1,59 @@
+C:\_DevTools\Python\Python36\venvjupyter
+
+Convinations that work:
+Python: 3.6.8
+TF GPU 2.0 Cuda: 10 Cudnn: 7.6.0
+TF GPU 2.2 Cuda: 10.1 Cudnn: 7.6.4
+
+Installing
+---------------------
+https://www.tensorflow.org/install/pip#windows_1
+https://www.youtube.com/watch?v=KZFn0dvPZUQ
+https://www.tensorflow.org/install/gpu
+https://www.pugetsystems.com/labs/hpc/The-Best-Way-to-Install-TensorFlow-with-GPU-Support-on-Windows-10-Without-Installing-CUDA-1187/
+http://bailiwick.io/2017/11/05/tensorflow-gpu-windows-and-jupyter/
+
+
+Old Driver
+---------------------
+https://www.nvidia.com/download/driverResults.aspx/151051/en-us
+
+virtualenv
+---------------------
+virtualenv --system-site-packages -p python ../venvjupytercpu
+
+conda
+---------------------
+conda create -n venvcpujupyter python=3.6
+conda activate venvcpujupyter
+conda env remove -n venvgpujupyter
+
+Install
+---------------------
+Tensorflow tensorflow-gpu
+keras
+pandas
+matplotlib
+pillow
+jupyter
+skimage
+
+Check devices
+---------------------
+https://stackoverflow.com/questions/44829085/tensorflow-not-running-on-gpu
+
+
+Merge
+---------------------
+https://stackoverflow.com/questions/51075666/how-to-implement-merge-from-keras-layers
+http://faroit.com/keras-docs/2.0.2/layers/merge/
+
+
+Pwrap error
+---------------------
+https://www.youtube.com/watch?v=XF4-enzcn40
+
+
+Memory usage
+---------------------
+https://stackoverflow.com/questions/53698035/failed-to-get-convolution-algorithm-this-is-probably-because-cudnn-failed-to-in
