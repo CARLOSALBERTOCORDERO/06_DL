@@ -36,6 +36,8 @@ pandas
 matplotlib
 pillow
 jupyter
+pydot 
+graphviz 
 skimage
 
 Check devices
@@ -47,6 +49,7 @@ Merge
 ---------------------
 https://stackoverflow.com/questions/51075666/how-to-implement-merge-from-keras-layers
 http://faroit.com/keras-docs/2.0.2/layers/merge/
+https://stackoverflow.com/questions/42823627/how-to-use-merge-layer-concat-function-on-keras-2-0-0
 
 
 Pwrap error
@@ -57,3 +60,15 @@ https://www.youtube.com/watch?v=XF4-enzcn40
 Memory usage
 ---------------------
 https://stackoverflow.com/questions/53698035/failed-to-get-convolution-algorithm-this-is-probably-because-cudnn-failed-to-in
+
+
+DenseNet
+---------------------
+https://www.youtube.com/watch?v=3ZPJyknZolE
+https://www.youtube.com/watch?v=b91B89tRepA
+
+
+Model plot
+---------------------
+conda install graphviz
+the folder in lib../bin has to be in path
