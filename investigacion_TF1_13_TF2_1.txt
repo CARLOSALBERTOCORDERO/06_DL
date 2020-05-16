@@ -66,9 +66,14 @@ DenseNet
 ---------------------
 https://www.youtube.com/watch?v=3ZPJyknZolE
 https://www.youtube.com/watch?v=b91B89tRepA
-
+https://www.youtube.com/watch?v=Va8WWRfw7Og&list=PLZSO_6-bSqHQHBCoGaObUljoXAyyqhpFW
 
 Model plot
 ---------------------
 conda install graphviz
 the folder in lib../bin has to be in path
+
+Optimizers
+---------------------
+https://www.youtube.com/watch?v=apmNSYWEEnw
+https://www.youtube.com/watch?v=ZBVwnoVIvZk
