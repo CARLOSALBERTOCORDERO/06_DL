@@ -77,3 +77,19 @@ Optimizers
 ---------------------
 https://www.youtube.com/watch?v=apmNSYWEEnw
 https://www.youtube.com/watch?v=ZBVwnoVIvZk
+
+
+metrics
+---------------------
+F1 score (macro averaged over examples, higher is better)
+https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html
+
+Hamming loss (lower is better)
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss
+
+Jaccard index (higher is better)
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.jaccard_score.html#sklearn.metrics.jaccard_score
+
+Log loss (averaged over labels, lower is better)
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html#sklearn.metrics.log_loss
