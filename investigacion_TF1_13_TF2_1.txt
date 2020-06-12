@@ -39,6 +39,7 @@ jupyter
 pydot 
 graphviz 
 skimage
+sklearn
 
 Check devices
 ---------------------
@@ -83,7 +84,7 @@ metrics
 ---------------------
 F1 score (macro averaged over examples, higher is better)
 https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
-https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_fscore_support.html
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score
 
 Hamming loss (lower is better)
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss
@@ -93,3 +94,16 @@ https://scikit-learn.org/stable/modules/generated/sklearn.metrics.jaccard_score.
 
 Log loss (averaged over labels, lower is better)
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html#sklearn.metrics.log_loss
+
+
+AWS
+---------------------
+https://console.aws.amazon.com/billing/home?#/preferences 
+https://aws.amazon.com/documentation/cloudwatch/ 
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html 
+https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html 
+https://aws.amazon.com/cloudtrail/
+http://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/budgets-managing-costs.html
+https://calculator.s3.amazonaws.com/index.html
+
+
