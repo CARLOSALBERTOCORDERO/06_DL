@@ -41,6 +41,11 @@ graphviz
 skimage
 sklearn
 
+Copy Venv
+---------------------
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
 Check devices
 ---------------------
 https://stackoverflow.com/questions/44829085/tensorflow-not-running-on-gpu
@@ -85,16 +90,23 @@ metrics
 F1 score (macro averaged over examples, higher is better)
 https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score
+https://towardsdatascience.com/multi-class-metrics-made-simple-part-i-precision-and-recall-9250280bddc2
+https://towardsdatascience.com/multi-class-metrics-made-simple-part-ii-the-f1-score-ebe8b2c2ca1
+
 
 Hamming loss (lower is better)
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss
+https://stats.stackexchange.com/questions/336820/what-is-a-hamming-loss-will-we-consider-it-for-an-imbalanced-binary-classifier
+
 
 Jaccard index (higher is better)
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.jaccard_score.html#sklearn.metrics.jaccard_score
+https://www.youtube.com/watch?v=zpumQCTLAXI
+
 
 Log loss (averaged over labels, lower is better)
 https://scikit-learn.org/stable/modules/generated/sklearn.metrics.log_loss.html#sklearn.metrics.log_loss
-
+https://towardsdatascience.com/log-loss-function-math-explained-5b83cd8d9c83
 
 AWS
 ---------------------
@@ -109,7 +121,10 @@ https://calculator.s3.amazonaws.com/index.html
 
 Tensorboard
 ---------------------
-tensorboard --logdir logs/lrfine/DenseNet-161
+tensorboard --logdir logs/modelgraph
+
 https://www.youtube.com/watch?v=xM8sO33x_OU
+
+
 
 
